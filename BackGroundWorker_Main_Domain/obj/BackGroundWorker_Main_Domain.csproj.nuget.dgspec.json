@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MM\\Desktop\\MohammadMozafari\\BackGroundWorker_Main_Domain\\BackGroundWorker_Main_Domain.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MM\\Desktop\\MohammadMozafari\\BackGroundWorker_Main_Domain\\BackGroundWorker_Main_Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MM\\Desktop\\MohammadMozafari\\BackGroundWorker_Main_Domain\\BackGroundWorker_Main_Domain.csproj",
+        "projectName": "BackGroundWorker_Main_Domain",
+        "projectPath": "C:\\Users\\MM\\Desktop\\MohammadMozafari\\BackGroundWorker_Main_Domain\\BackGroundWorker_Main_Domain.csproj",
+        "packagesPath": "C:\\Users\\MM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MM\\Desktop\\MohammadMozafari\\BackGroundWorker_Main_Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MM\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://package-mirror.liara.ir/repository/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
