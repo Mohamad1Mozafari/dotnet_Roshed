@@ -12,11 +12,18 @@ cd PEmbeder
 uvicorn main:app --reload 
 
 (terminal 2):
+
+
 cd RoshedTehran 
+
 dotnet run seeddata 
+
+
 #(for add sample data to db )
 
 
 ###
 http://localhost:6333/dashboard#/collections
+
+
 (see the qdrant doshbord ) 
