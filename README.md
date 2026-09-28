@@ -6,14 +6,17 @@ docker run -d -p 6333:6333 -p 6334:6334 -v qdrant_storage:/qdrant/storage --name
 
 
 
-python main.py 
+run these:
+(terminal 1):
+cd PEmbeder
+uvicorn main:app --reload 
+
+(terminal 2):
+cd RoshedTehran 
+dotnet run seeddata 
+#(for add sample data to db )
+
 
 ###
-in online search check in the posgressql checked the main URL exist or not 
-if not spread that and add to txt file which must scrape 
-
-
-AWS Access Key ID [None]: 123456
-AWS Secret Access Key [None]: lN5mOfeuebqe][qD
-Default region name [None]: None
-Default output format [None]: None
+http://localhost:6333/dashboard#/collections
+(see the qdrant doshbord ) 
